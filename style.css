@@ -1,0 +1,237 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*--------------------Navbar Menu-------------------*/
+.navbar-menu {
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 80px;    
+}
+.menubar{
+    float: right;
+    padding-right: 80px; 
+}
+.menubar a{
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+    padding-left: 10px;
+}
+
+
+/*--------------------top-section-------------------*/
+.top-section{
+    padding-bottom: 80px;
+}
+h1{
+    line-height: 0.2;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+}
+#header-line1{
+    color: rgba(54, 57, 88, 1);
+}
+#header-line2{
+    color: rgba(255, 131, 103, 1);
+}
+
+.top-section .half-width p{
+    line-height: 0.2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left:2%;
+}
+.top-section .half-width p{
+    font-size: 20px;
+}
+.half-width img{
+    width: 70%;
+}
+section{
+    height: 300px;
+    padding-bottom: 150px;
+}
+
+/*--------------------Hire Me Button-------------------*/
+.hire-me-button{    
+    text-decoration: none;
+    font-style: bold;
+    font-weight: 300;
+    padding: 15px 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 128, 99, 1);
+    color: white;
+}
+
+
+/*--------------------About Area-------------------*/
+.about-area-half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left:2%
+}
+.about-area .about-area-half-width img{
+    width: 80%;
+}
+* h2{
+    color: rgba(54, 57, 88, 1);
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.about-area .about-area-half-width p{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 25px;   
+}
+
+/*--------------------Resume Button-------------------*/
+.resume-button{    
+    text-decoration: none;
+    font-style: bold;
+    font-weight: 300;
+    padding: 15px 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 128, 99, 1);
+    color: white;
+}
+
+
+/*--------------------Project Section-------------------*/
+.project-area{
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
+.blue-highlight{
+    color: rgba(244, 96, 96, 1);
+    font-size: 40px;
+}
+.project-list h3{
+    color: rgba(54, 57, 88, 1);
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 30px;
+    
+}
+.project-list{
+  
+    padding-left: 100px;
+    margin-left: 30px;
+    float: left;
+    width: 90%;  
+    clear: both;
+    display: table;
+    
+}
+.project-list img{
+    height:auto;
+    width:100%;
+}
+div .description{
+    padding: 15px;
+    text-align: left;
+}
+div .project{
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+hr{
+    width:100%;
+    height: 20px;
+    text-align:left;
+    margin-left:0;
+    color: rgba(54, 57, 88, 1);
+}
+
+/*--------------------Technical Knowledge Section-------------------*/
+.tech-area{
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: justify;
+    color: rgba(54, 57, 88, 1);
+}
+.last-part{
+    margin: -10%;
+}
+
+.work-text{
+    background-image: url('images/work.png');
+    background-position: center;
+    background-size: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 60%;
+    height: 100px;  
+    padding-top: 30px;
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+}
+.last-button{
+    float: right;
+}
+#last-button{
+   margin: 0;
+    position: relative;
+    top: -30%;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-style: bold;
+    font-weight: 300;
+    padding: 15px 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 128, 99, 1);
+    color: white;
+}
+.social-section{
+    margin: 0;
+    padding:0;
+}
+.connected-area{
+    color: rgba(105, 104, 113, 1);
+}
+.email-address{
+    color:  rgba(54, 57, 88, 1);
+    text-align: center;
+}
+
+/*--------------------------------------------*/
+.footer{
+    display:flex;
+    position: relative;
+    margin-top: 20px;
+    padding-left: 800px;
+    
+}
+.footer img{
+    padding-left: 10px;
+    float: left;
+    width: 50px;    
+}
+
+
+
+
+
+
+
+
